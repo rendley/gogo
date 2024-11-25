@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	for idx, char := range "ого" {
 		fmt.Println(idx, char, string(char))
+		fmt.Println("")
 	}
 
 	str := "ого"

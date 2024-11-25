@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	for idx, char := range "ого" {
@@ -12,4 +14,5 @@ func main() {
 	for i := 0; i < len(str); i++ {
 		fmt.Printf("str[%d] = %d\n", i, str[i])
 	}
+
 }
